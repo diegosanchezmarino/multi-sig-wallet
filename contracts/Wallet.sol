@@ -2,6 +2,7 @@
 pragma solidity 0.8.13;
 
 contract Wallet {
+    
     address[] public approvers;
     uint256 public quorum;
 
